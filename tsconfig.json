@@ -1,0 +1,18 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "functions"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "functions",
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
